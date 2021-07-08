@@ -52,7 +52,7 @@ public class horrorlands{
                System.out.println("\tYou strike the " +enemy+ " for " +damageDealt+ " damage.");
                System.out.println("\tYou recive " +damageTaken + " damage by the " +enemy);
                
-               if (health<1) {
+               if (health<10) {
                    System.out.println("\t>You have taken too much damage, you are weak to fight");
                    break;
                 }
